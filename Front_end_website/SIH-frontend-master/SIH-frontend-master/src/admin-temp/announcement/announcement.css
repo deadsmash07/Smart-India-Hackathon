@@ -1,0 +1,74 @@
+/* Targeting 'a' tags within elements having the class '.announcement' */
+.announcement a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Styles for '.announcement.content' */
+.announcement .content {
+    margin-left: 20%;
+    width: 80%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: #323c6e; */
+}
+
+/* Styles for '.announcement.box' */
+.announcement .box {
+    width: 80%;
+    height: 70%;
+    background: #FFF;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 8px;
+    margin: 20px 0px 20px 0px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styles for '.announcement.box div' */
+.announcement .box div {
+    font-size: 30px;
+    padding: 10px;
+}
+
+/* Styles for '.announcement textarea' */
+.announcement textarea {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    /* Other styles for textarea */
+}
+
+/* Styles for '.announcement.buttons' */
+.announcement .buttons {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+/* Styles for '.announcement.buttons button' */
+.announcement .buttons button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    /* Other styles for buttons */
+}
+
+/* Additional button styles */
+.announcement .buttons button:nth-child(2) {
+    background: #E31C2E;
+}
+
+/* Styles for '.announcement.buttons button div' */
+.announcement .buttons button div {
+    font-size: 18px;
+}
+
+/* Styles for '.announcement.buttons button span' */
+.announcement .buttons button span {
+    font-size: 24px;
+}
